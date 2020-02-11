@@ -14,6 +14,8 @@ Images are retrieved by hitting the Flickr API.
 
 Search Path: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={fickr_api_key}&format=json&nojsoncallback=1&safe_search=1&per_page={page_size}&text={search_text}&page={page_num}
 Example: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=f7b909b43d45ecd98222c06accd36ff9&format=json&nojsoncallback=1&safe_search=1&per_page=20&text=kittens&page=1
+
+
 Response includes an array of photo objects, each represented as:
 {
 "id": "43213681030",
@@ -26,6 +28,8 @@ Response includes an array of photo objects, each represented as:
 "isfriend": 0,
 "isfamily": 0
 }
+
+
 I use the farm, server, id, and secret to build the image path. Flickr Photo Source URLs
 
 Image Path: http://farm{farm}.static.flickr.com/{server}/{id}_{secret}.jpg
