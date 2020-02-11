@@ -1,5 +1,6 @@
 # IOSDEV
 FlickrSearchApp
+
 Flickr search application written in Swift. This project searches for images using Flickr API and displays in 3 column grid 20 records at time  and provides endless scrolling. The data is paginated and service takes care of fetching data from Flickr service. The application uses MVVM architecture.
 
 Getting Started
