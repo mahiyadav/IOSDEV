@@ -85,7 +85,7 @@ extension FlickrCollectionViewController {
         }
     }
 }
-
+//MARK:- UISearchControllerDelegate
 extension FlickrCollectionViewController: UISearchControllerDelegate, UISearchBarDelegate {
     
     private func createSearchBar() {
